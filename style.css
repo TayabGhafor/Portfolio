@@ -1,4 +1,4 @@
-
+/* Global styles */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -7,79 +7,22 @@ body {
   color: #2b2b2b;
 }
 
+/* Headline section styles */
 .headline-section {
+ 
   text-align: center;
   background-color: white;
-  max-width: 1440px;
-  height: 846px;
+  max-width: 1400px;
   top: 71px;
+  height: 846px;
+  border-bottom-left-radius: 30%;
+  
 }
 
-.text-content h1 {
-  font-size: 2.5rem;
-  color: #1e2a3d;
-  font-weight: 700;
-}
-
-.text-content p {
-  font-size: 1rem;
-  color: #4b4b4b;
-  line-height: 1.5;
-  margin: 20px 0;
-}
-
-.connect-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #5461ff;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.connect-button:hover {
-  background-color: #3f4bc9;
-}
-
-.social-icons {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.social-icons .icon {
-  font-size: 40px;
-  color: #4b4b4b;
-  transition: transform 0.3s, color 0.3s;
-}
-
-.icon:hover {
-  color: #5461ff;
-  transform: scale(1.2); 
-}
-
-.icon:visited {
-  color: #a0a0a0;
-}
-
-@media only screen and (max-width: 768px) {
-  .headline-section {
-    padding: 20px;
-  }
-
-  .text-content h1 {
-    font-size: 2rem;
-  }
-
-  .text-content p {
-    font-size: 0.9rem;
-  }
-
-  .social-icons .icon {
-    font-size: 30px;
-  }
+.Header_bg {
+  width: 1397.4px;
+  height: 721.46px;
+  top: 119px;
+  left: 34.6px;
+  border: 1px;
 }
