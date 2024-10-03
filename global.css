@@ -1,15 +1,48 @@
-body {
+
+  body {
     margin: 0;
     line-height: normal;
   }
   
   :root {
-    --body-2-bolder: Poppins;
-    --body-2-bolder-size: 1rem;
-    --header-2-size: 2.5rem;
-    --primary-b300: #7f8cff;
+    /* fonts */
+    --button-normal: Poppins;
+  
+    /* font sizes */
+    --button-normal-size: 1.063rem;
+    --button-small-size: 0.75rem;
+    --body-3-size: 0.938rem;
+    --caption-1-bolder-size: 0.813rem;
+    --font-size-13xl: 2rem;
+  
+    /* Colors */
+    --neutrals-n0: #fff;
+    --neutrals-n40: #dfe1e6;
+    --primary-b400: #6070ff;
+    --primary-b500: #396df2;
+    --primary-b50: #ebebff;
     --neutrals-n600: #344563;
     --neutrals-n800: #172b4d;
-    --padding-95xl: 7.125rem;
+    --neutrals-n100: #7a869a;
+    --neutrals-n50: #c1c7d0;
+  
+    /* Gaps */
+    --gap-xs: 0.75rem;
+    --gap-xl: 1.25rem;
+    --gap-5xs: 0.5rem;
+  
+    /* Paddings */
+    --padding-sm: 0.875rem;
+    --padding-mini: 0.937rem;
+    --padding-7xl: 1.625rem;
+    --padding-3xs: 0.625rem;
+    --padding-4xs: 0.562rem;
+    --padding-xs: 0.75rem;
+    --padding-9xs: 0.25rem;
+    --padding-2xs: 0.687rem;
+  
+    /* Border radiuses */
+    --br-base: 16px;
+    --br-5xs: 8px;
   }
   
