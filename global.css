@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --body-2-bolder: Poppins;
+  
+    /* font sizes */
+    --body-2-bolder-size: 1rem;
+    --header-2-size: 2.5rem;
+  
+    /* Colors */
+    --primary-b300: #7f8cff;
+    --neutrals-n600: #344563;
+    --neutrals-n800: #172b4d;
+  
+    /* Paddings */
+    --padding-95xl: 7.125rem;
+  }
+  

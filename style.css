@@ -1,28 +1,80 @@
-/* Global styles */
-body {
-  font-family: 'Poppins', sans-serif;
+.glad-to-see,
+.im-alexandra {
   margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-  color: #2b2b2b;
 }
-
-/* Headline section styles */
-.headline-section {
- 
-  text-align: center;
-  background-color: white;
-  max-width: 1400px;
-  top: 71px;
-  height: 846px;
-  border-bottom-left-radius: 30%;
-  
+.primary-text {
+  height: 9.375rem;
+  position: relative;
+  font-size: var(--header-2-size);
+  line-height: 3.25rem;
+  font-weight: 700;
+  font-family: var(--body-2-bolder);
+  color: var(--neutrals-n800);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
-
-.Header_bg {
-  width: 1397.4px;
-  height: 721.46px;
-  top: 119px;
-  left: 34.6px;
-  border: 1px;
+.lets-connect,
+.primary-text1 {
+  position: relative;
+  line-height: 1.5rem;
+}
+.primary-text1 {
+  font-size: var(--body-2-bolder-size);
+  font-family: var(--body-2-bolder);
+  color: var(--neutrals-n600);
+  text-align: left;
+}
+.lets-connect {
+  font-weight: 500;
+}
+.linkedin-icon,
+.linkedin-icon-header,
+.linkedin-icon-header1 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+}
+.linkedin-icon-header1 {
+  height: 1rem;
+}
+.linkedin-icon-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.125rem 0 0;
+}
+.linkedin-icon-header2,
+.linkedin-icon-header3 {
+  height: 1.25rem;
+  width: 1.125rem;
+  position: relative;
+}
+.linkedin-icon-header3 {
+  width: 0.888rem;
+}
+.headline,
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.218rem;
+}
+.headline {
+  width: 23.438rem;
+  max-width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-95xl) 1.25rem var(--padding-95xl) 1.5rem;
+  box-sizing: border-box;
+  gap: 0.75rem;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--body-2-bolder-size);
+  color: var(--primary-b300);
+  font-family: var(--body-2-bolder);
 }
