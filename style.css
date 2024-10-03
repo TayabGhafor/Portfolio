@@ -2,6 +2,7 @@
 .im-alexandra {
   margin: 0;
 }
+
 .primary-text {
   height: 9.375rem;
   position: relative;
@@ -15,20 +16,24 @@
   align-items: center;
   flex-shrink: 0;
 }
+
 .lets-connect,
 .primary-text1 {
   position: relative;
   line-height: 1.5rem;
 }
+
 .primary-text1 {
   font-size: var(--body-2-bolder-size);
   font-family: var(--body-2-bolder);
   color: var(--neutrals-n600);
   text-align: left;
 }
+
 .lets-connect {
   font-weight: 500;
 }
+
 .linkedin-icon,
 .linkedin-icon-header,
 .linkedin-icon-header1 {
@@ -36,9 +41,11 @@
   width: 1.25rem;
   position: relative;
 }
+
 .linkedin-icon-header1 {
   height: 1rem;
 }
+
 .linkedin-icon-header-wrapper {
   display: flex;
   flex-direction: column;
@@ -46,15 +53,18 @@
   justify-content: flex-start;
   padding: 0.125rem 0 0;
 }
+
 .linkedin-icon-header2,
 .linkedin-icon-header3 {
   height: 1.25rem;
   width: 1.125rem;
   position: relative;
 }
+
 .linkedin-icon-header3 {
   width: 0.888rem;
 }
+
 .headline,
 .social-icons {
   display: flex;
@@ -63,6 +73,7 @@
   justify-content: flex-start;
   gap: 1.218rem;
 }
+
 .headline {
   width: 23.438rem;
   max-width: 100%;
