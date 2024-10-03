@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "lighthouse": "^12.2.1"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "devDependencies": {
+    "hint": "^7.1.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

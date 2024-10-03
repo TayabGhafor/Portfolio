@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --body-2-bolder: Poppins;
+    --body-2-bolder-size: 1rem;
+    --header-2-size: 2.5rem;
+    --primary-b300: #7f8cff;
+    --neutrals-n600: #344563;
+    --neutrals-n800: #172b4d;
+    --padding-95xl: 7.125rem;
+  }
+  
