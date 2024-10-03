@@ -75,6 +75,7 @@
 }
 
 .headline {
+  background-image: url(./assets/img/header-shapes\ mobile.png);
   width: 23.438rem;
   max-width: 100%;
   overflow: hidden;
