@@ -1,48 +1,62 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
 
-  body {
-    margin: 0;
-    line-height: normal;
-  }
-  
-  :root {
-    /* fonts */
-    --button-normal: Poppins;
-  
-    /* font sizes */
-    --button-normal-size: 1.063rem;
-    --button-small-size: 0.75rem;
-    --body-3-size: 0.938rem;
-    --caption-1-bolder-size: 0.813rem;
-    --font-size-13xl: 2rem;
-  
-    /* Colors */
-    --neutrals-n0: #fff;
-    --neutrals-n40: #dfe1e6;
-    --primary-b400: #6070ff;
-    --primary-b500: #396df2;
-    --primary-b50: #ebebff;
-    --neutrals-n600: #344563;
-    --neutrals-n800: #172b4d;
-    --neutrals-n100: #7a869a;
-    --neutrals-n50: #c1c7d0;
-  
-    /* Gaps */
-    --gap-xs: 0.75rem;
-    --gap-xl: 1.25rem;
-    --gap-5xs: 0.5rem;
-  
-    /* Paddings */
-    --padding-sm: 0.875rem;
-    --padding-mini: 0.937rem;
-    --padding-7xl: 1.625rem;
-    --padding-3xs: 0.625rem;
-    --padding-4xs: 0.562rem;
-    --padding-xs: 0.75rem;
-    --padding-9xs: 0.25rem;
-    --padding-2xs: 0.687rem;
-  
-    /* Border radiuses */
-    --br-base: 16px;
-    --br-5xs: 8px;
-  }
-  
+:root {
+  /* fonts */
+  --button-normal: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --button-normal-size: 1.063rem;
+  --body-3-bolder-size: 0.938rem;
+  --body-1-bolder-size: 1.25rem;
+  --header-2-size: 2.5rem;
+  --body-2-bolder-size: 1rem;
+  --button-small-size: 0.75rem;
+  --caption-1-bolder-size: 0.813rem;
+  --font-size-13xl: 2rem;
+
+  /* Colors */
+  --neutrals-n10: #f7f7f9;
+  --base-900: #181e25;
+  --mono-black: #0e141e;
+  --neutrals-n0: #fff;
+  --primary-b400: #6070ff;
+  --neutrals-n50: #c1c7d0;
+  --neutrals-n600: #344563;
+  --neutrals-n700: #253858;
+  --neutral-n800: #172b4d;
+  --primary-b50: #ebebff;
+  --neutrals-n40: #dfe1e6;
+  --color-black: #000;
+  --primary-b300: #7f8cff;
+  --primary-b500: #396df2;
+  --neutrals-n100: #7a869a;
+
+  /* Gaps */
+  --gap-xl: 1.25rem;
+  --gap-xs: 0.75rem;
+  --gap-base: 1rem;
+  --gap-5xs: 0.5rem;
+
+  /* Paddings */
+  --padding-2xl: 1.312rem;
+  --padding-5xs: 0.5rem;
+  --padding-5xl: 1.5rem;
+  --padding-xs: 0.75rem;
+  --padding-mini: 0.937rem;
+  --padding-base: 1rem;
+  --padding-2xs: 0.687rem;
+  --padding-4xs: 0.562rem;
+  --padding-3xs-7: 0.606rem;
+  --padding-3xs: 0.625rem;
+  --padding-sm: 0.875rem;
+  --padding-7xl: 1.625rem;
+  --padding-9xs: 0.25rem;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-base: 16px;
+}
