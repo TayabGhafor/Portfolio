@@ -74,6 +74,17 @@
             <div class="normal-buttontertiaryenabled">
               <i class="fa-solid fa-bars" id="iconsicon-menu"></i>
             </div>
+            
+            <div id="mobile-menu" class="mobile-menu hidden">
+              <i class="fa-solid fa-xmark" id="close-menu"></i>
+              <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            
           </div>
         </div>
       </section>
@@ -484,5 +495,31 @@
         </div>
       </section>
     </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+  const menuIcon = document.getElementById('iconsicon-menu');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const closeMenu = document.getElementById('close-menu');
+  const menuItems = document.querySelectorAll('.menu-items li a');
+
+  // Show mobile menu
+  menuIcon.addEventListener('click', () => {
+    mobileMenu.classList.remove('hidden');
+  });
+
+  // Close mobile menu
+  closeMenu.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden');
+  });
+
+  // Close menu when clicking any of the menu items
+  menuItems.forEach(item => {
+    item.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+    });
+  });
+});
+
+    </script>
   </body>
 </html>
