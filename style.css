@@ -222,6 +222,7 @@
   font-size: 0.875rem;
   color: var(--color-black);
   font-family: var(--font-roboto);
+  margin-top: 16px;
 }
 .my-logo {
   text-decoration: none;
@@ -238,7 +239,7 @@
   justify-content: flex-start;
   padding: var(--padding-3xs) 0 0;
 }
-.iconsicon-menu {
+#iconsicon-menu {
   margin: 0;
   height: 1.5rem;
   width: 1.5rem;
